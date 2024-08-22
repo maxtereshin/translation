@@ -1,11 +1,11 @@
-Code fork from https://github.com/Waavi/translation
+Code forked from https://github.com/Waavi/translation
 # Better localization management for Laravel
 This package fix for laravel 11.x
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jamesctl/translation.svg?style=flat-square)](https://packagist.org/packages/jamesctl/translation)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/jamesctl/translation/master.svg?style=flat-square)](https://travis-ci.org/jamesctl/translation)
-[![Total Downloads](https://img.shields.io/packagist/dt/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/jamesctl/translation)
+[![Total Downloads](https://img.shields.io/packagist/dt/jamesctl/translation.svg?style=flat-square)](https://packagist.org/packages/jamesctl/translation)
 
 ## Introduction
 
