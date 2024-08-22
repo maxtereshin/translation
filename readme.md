@@ -55,12 +55,12 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 Require through composer
 
 
-	composer require waavi/translation 2.3.x
+	composer require jamesclt/translation 2.3.x
 
 Or manually edit your composer.json file:
 
 	"require": {
-		"waavi/translation": "2.3.x"
+		"jamesclt/translation": "2.3.x"
 	}
 
 Once installed, in your project's config/app.php file replace the following entry from the providers array:
