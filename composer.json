@@ -1,5 +1,5 @@
 {
-    "name": "jamesctl/waavi-translation",
+    "name": "jamesctl/translation",
     "description": "A Translation package for Laravel 11 with database and cache support",
     "keywords": [
         "waavi",
