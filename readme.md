@@ -1,10 +1,10 @@
 Code fork from https://github.com/Waavi/translation
 # Better localization management for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/waavi/translation)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/jamesctl/translation)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/Waavi/translation/master.svg?style=flat-square)](https://travis-ci.org/Waavi/translation)
-[![Total Downloads](https://img.shields.io/packagist/dt/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/waavi/translation)
+[![Build Status](https://img.shields.io/travis/Waavi/translation/master.svg?style=flat-square)](https://travis-ci.org/jamesctl/translation)
+[![Total Downloads](https://img.shields.io/packagist/dt/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/jamesctl/translation)
 
 ## Introduction
 
@@ -35,13 +35,8 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 
  Laravel  | translation
 :---------|:----------
- 4.x  	  | 1.0.x
- 5.0.x    | 2.0.x
- 5.1.x\|5.3.x | 2.1.x
- 5.4.x    | 2.2.x
- 5.5.x    | 2.3.x and higher
- 5.6.x    | 2.3.x and higher
- 6.x\|7.x     | 2.4.x and higher
+ 11.x 	  | 2.7.3
+
 ## Features overview
 
  - Allow dynamic changes to the site's text and translations.
@@ -55,12 +50,12 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 Require through composer
 
 
-	composer require jamesclt/translation 2.3.x
+	composer require jamesclt/translation 2.7.3
 
 Or manually edit your composer.json file:
 
 	"require": {
-		"jamesclt/translation": "2.3.x"
+		"jamesclt/translation": "2.7.3"
 	}
 
 Once installed, in your project's config/app.php file replace the following entry from the providers array:
