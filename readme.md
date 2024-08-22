@@ -1,5 +1,6 @@
 Code fork from https://github.com/Waavi/translation
 # Better localization management for Laravel
+This package fix for laravel 11.x
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/jamesctl/translation)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -58,11 +59,7 @@ Or manually edit your composer.json file:
 		"jamesclt/translation": "2.7.3"
 	}
 
-Once installed, in your project's config/app.php file replace the following entry from the providers array:
-
-	Illuminate\Translation\TranslationServiceProvider::class
-
-with:
+Once installed, in your project's bootstrap/providers.php file add code bellow to your array:
 
 	Waavi\Translation\TranslationServiceProvider::class
 
