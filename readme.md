@@ -36,7 +36,7 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 
  Laravel  | translation
 :---------|:----------
- 11.x 	  | 2.7.3
+ 11.x 	  | 2.7.4
 
 ## Features overview
 
@@ -51,12 +51,12 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 Require through composer
 
 
-	composer require jamesclt/translation 2.7.3
+	composer require jamesclt/translation 2.7.4
 
 Or manually edit your composer.json file:
 
 	"require": {
-		"jamesclt/translation": "2.7.3"
+		"jamesclt/translation": "2.7.4"
 	}
 
 Once installed, in your project's bootstrap/providers.php file add code bellow to your array:
