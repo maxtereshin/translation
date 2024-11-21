@@ -1,5 +1,5 @@
 {
-    "name": "jamesctl/translation",
+    "name": "mtereshin/translation",
     "description": "A Translation package for Laravel 11 with database and cache support",
     "keywords": [
         "waavi",
@@ -15,15 +15,10 @@
             "name": "Waavi",
             "email": "info@waavi.com",
             "homepage": "http://waavi.com"
-        },
-        {
-            "name": "James",
-            "email": "ngodanghuuha@gmail.com",
-            "homepage": "https://centrala.vn"
         }
     ],
     "require": {
-        "laravel/framework": "v11.9.0|v11.1.4",
+        "laravel/framework": "^11.31",
         "doctrine/dbal": "^v4.1.0"
     },
     "require-dev": {
